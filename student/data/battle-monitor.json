@@ -1,0 +1,44 @@
+{
+  "seed": 722,
+  "windows": [
+    {
+      "id": "morning",
+      "n": 10,
+      "missing": 2
+    },
+    {
+      "id": "night",
+      "n": 0,
+      "missing": 0
+    },
+    {
+      "id": "evening",
+      "n": 10,
+      "missing": 4
+    }
+  ],
+  "limit": 0.2,
+  "ids": [
+    "o1",
+    "o2",
+    "o3"
+  ],
+  "predictions": [
+    {
+      "id": "o1",
+      "p": 0.8
+    },
+    {
+      "id": "o1",
+      "p": 0.7
+    },
+    {
+      "id": "o2",
+      "p": 1.2
+    },
+    {
+      "id": "other",
+      "p": 0.3
+    }
+  ]
+}

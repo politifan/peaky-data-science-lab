@@ -1,0 +1,59 @@
+[
+  {
+    "name": "iris",
+    "rows": 150,
+    "features": [
+      "sepal length (cm)",
+      "sepal width (cm)",
+      "petal length (cm)",
+      "petal width (cm)"
+    ],
+    "target_names": [
+      "setosa",
+      "versicolor",
+      "virginica"
+    ],
+    "file": "real-iris.csv",
+    "sha256": "b38615c649938611a18093a41288f4714336085da439f30b1362b5246d3b35e1",
+    "source": "https://archive.ics.uci.edu/dataset/53/iris",
+    "citation": "Fisher, R. A. (1936). Iris. UCI. DOI 10.24432/C56C76",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "distribution": "scikit-learn 1.5.2 bundled dataset",
+    "changes": "CSV headers, added row_id, class target normalized to 0..2; Iris uses corrected scikit-learn version",
+    "limitations": "Small historical curated sample; not representative of production, no timestamps or entity groups. Stratified split assumes independent samples; no causal conclusions."
+  },
+  {
+    "name": "wine",
+    "rows": 178,
+    "features": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280/od315_of_diluted_wines",
+      "proline"
+    ],
+    "target_names": [
+      "class_0",
+      "class_1",
+      "class_2"
+    ],
+    "file": "real-wine.csv",
+    "sha256": "990931312d83320b60b53dfa38c59d0d6598800510463474fc30e9de64c95ce6",
+    "source": "https://archive.ics.uci.edu/dataset/109/wine",
+    "citation": "Aeberhard, S. & Forina, M. (1992). Wine. UCI. DOI 10.24432/C5PC7J",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "distribution": "scikit-learn 1.5.2 bundled dataset",
+    "changes": "CSV headers, added row_id, class target normalized to 0..2; Iris uses corrected scikit-learn version",
+    "limitations": "Small historical curated sample; not representative of production, no timestamps or entity groups. Stratified split assumes independent samples; no causal conclusions."
+  }
+]

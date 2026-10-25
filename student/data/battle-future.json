@@ -1,0 +1,35 @@
+{
+  "seed": 721,
+  "decision_time": 10,
+  "features": [
+    {
+      "name": "distance",
+      "available_at": 8
+    },
+    {
+      "name": "actual_receipt_at",
+      "available_at": 14
+    },
+    {
+      "name": "weather",
+      "available_at": 10
+    }
+  ],
+  "rows": [
+    {
+      "id": "o1",
+      "user": "c1",
+      "part": "train"
+    },
+    {
+      "id": "o2",
+      "user": "c1",
+      "part": "test"
+    },
+    {
+      "id": "o3",
+      "user": "c2",
+      "part": "train"
+    }
+  ]
+}
