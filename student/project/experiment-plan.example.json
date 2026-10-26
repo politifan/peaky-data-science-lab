@@ -1,0 +1,12 @@
+{
+  "hypothesis": "Расстояние и время заказа помогают уменьшить цену пропуска опоздания относительно baseline на следующем периоде.",
+  "protocol": "future-existing-process",
+  "features": ["distance", "weight", "hour", "city", "weather"],
+  "availability": {"distance":"at_decision","weight":"at_decision","hour":"at_decision","city":"at_decision","weather":"at_decision"},
+  "candidates": [
+    {"name":"baseline", "kind":"baseline"},
+    {"name":"linear-c1", "kind":"linear", "C":1},
+    {"name":"tree-depth4", "kind":"tree", "max_depth":4}
+  ],
+  "thresholds": [0.2, 0.4, 0.6, 0.8]
+}

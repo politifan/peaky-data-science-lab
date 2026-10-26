@@ -1,5 +1,7 @@
-# Peaky Minds Data Science / RouteLab
+# Data Science / RouteLab, редакция 3
 
-Learner sources for Stepik 301873. Start with START-HERE.txt and work under student. The release includes the full learner archive with existing reading materials. Synthetic RouteLab data and credited historical example data retain their provenance.
+https://stepik.org/course/301873
 
-This edition preserves an existing SQLite target and strengthens saved classification replay by data hash, split, test ID, finite probabilities, threshold classes and targets. No additional complete runtime acceptance or independent learner pilot is claimed.
+Первый notebook — только маленькие Python-расчёты; NumPy/pandas/SQL вынесены в следующие модули. Ноль сохраняется, отрицательное измерение и None отделяются.
+
+`student/own_experiment.py` выполняет собственный замороженный план: baseline и кандидаты, выбор на validation, один holdout. `check_experiment.py` сверяет план/hash, временной split, выбор и replay. `ml_lab.py` остаётся разобранным линейным примером. Проверки протокола не доказывают реальное происхождение признаков или независимый пилот ученика.
